@@ -5,7 +5,7 @@ Funkce `read_points(text, separator=";")` vyžaduje jeden povinný parametr `tex
 
 Parametr `text` obsahuje vstupní text s body ve formátu `x1,y1;x2,y2;....;xn,yn`, volitelný parametr `separator` umožňuje měnit oddělovač jednotlivých bodů v parametru `text`. Například pro `separator="_"` bude text ve formátu `x1,y1_x2,y2_...._xn,yn`. Program nemusí fungovat pro `separator=","`, `separator="."` a `separator="-"`.
 
-Výsledkem funkce je seznam slovníků obsahující načtené body, jednotlivé souřadnice však neumocňujeme!). Souřadnice bodů vždy ukládejte jako `float`.
+Výsledkem funkce je seznam slovníků obsahující načtené body. Souřadnice bodů vždy ukládejte jako `float`.
 
 **Nezapomínejte na docstring funkce.**
 

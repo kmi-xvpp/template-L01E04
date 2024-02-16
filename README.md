@@ -1,4 +1,4 @@
-# L03E01: Read points
+# L01E04: Read points
 Vytvořte modul `points.py` obsahující funkci `read_points(text, separator=";")`.
 
 Funkce `read_points(text, separator=";")` vyžaduje jeden povinný parametr `text` a volitelný parametr `separator` s výchozí hodnotou `;`.
